@@ -138,6 +138,13 @@ font-size: 22px;
         .sec1
         {
             background-image: -webkit-linear-gradient(70deg, black 10% , rgba(0, 0, 0, 0) 80%),url(ipad_view.png);
+            background-position: center;
+        
+        }
+        .Head{
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 55px;
         }
 
   }
