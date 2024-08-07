@@ -14,14 +14,14 @@ margin: 0px;
 .sec1
 {
     width:100%;
-    background-image: -webkit-linear-gradient(60deg, black 30% , rgba(0, 0, 0, 0) 80%),url(img/section_1.jpg);
+    background-image: -webkit-linear-gradient(60deg, black 30% , rgba(0, 0, 0, 0) 80%),url(section_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .secPrize{
     display: flex;
-    background-image: -webkit-linear-gradient(270deg, black 5% , rgba(0, 0, 0, 0) 30%),url(img/123.jpg);
+    background-image: -webkit-linear-gradient(270deg, black 5% , rgba(0, 0, 0, 0) 30%),url(123.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -102,7 +102,7 @@ text-align: center;
 }
 
 #ff-compose{
-    background-image:-webkit-linear-gradient(270deg, rgba(14, 14, 14, 0.697) 20% , rgba(27, 27, 27, 0)90%),url(img/section_3.jpg);
+    background-image:-webkit-linear-gradient(270deg, rgba(14, 14, 14, 0.697) 20% , rgba(27, 27, 27, 0)90%),url(section_3.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ font-size: 22px;
   @media (max-width:1450px) {
         .sec1
         {
-            background-image: -webkit-linear-gradient(70deg, black 10% , rgba(0, 0, 0, 0) 80%),url(img/ipad_view.png);
+            background-image: -webkit-linear-gradient(70deg, black 10% , rgba(0, 0, 0, 0) 80%),url(ipad_view.png);
         }
 
   }
@@ -145,7 +145,7 @@ font-size: 22px;
   @media (max-width:1150px) {
         .sec1
         {
-            background-image: -webkit-linear-gradient(80deg, black 10% , rgba(0, 0, 0, 0) 80%),url(img/mobile_view.png);
+            background-image: -webkit-linear-gradient(80deg, black 10% , rgba(0, 0, 0, 0) 80%),url(mobile_view.png);
             background-position: center;
         }
 .title
