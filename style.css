@@ -1,0 +1,206 @@
+html,body{
+    height:100vh;
+ width:100%;
+    overflow: hidden;
+   
+}
+body{
+background-color:black;
+overflow-y: scroll;
+scrollbar-width: none;
+margin: 0px;
+
+}
+.sec1
+{
+    width:100%;
+    background-image: -webkit-linear-gradient(60deg, black 30% , rgba(0, 0, 0, 0) 80%),url(img/section_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.secPrize{
+    display: flex;
+    background-image: -webkit-linear-gradient(270deg, black 5% , rgba(0, 0, 0, 0) 30%),url(img/123.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+.sec2
+{
+    background-image: -webkit-linear-gradient(-60deg, rgb(0, 0, 0) 20% , rgb(27, 27, 27));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sec3
+{
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 3%;
+
+}
+.title
+{
+    padding:5%;
+    padding-bottom:6%;
+}
+.text1
+{
+    color: white;
+    margin: 0px;
+    font-family: "Anton", sans-serif;
+    
+}
+.Head{
+text-decoration: none;
+text-shadow: 4px 4px 15px rgb(0, 0, 0);
+font-size: 115px;
+font-weight: 800;
+line-height: 105px;
+letter-spacing: 4px;
+}
+
+.description{
+    text-decoration: none;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    color: rgb(8, 117, 0);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 22px;
+    margin: 3px;
+    
+}
+
+.cash-prizes{
+    padding-top: 10%;
+    margin: 2%;
+    margin-left: 1%;
+}
+.prizes{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.prize-Box
+{
+width:100%;
+padding: 0% 2%;
+padding-bottom: 9%;
+text-align: center;
+}
+.prize-head
+{
+    letter-spacing:10px;
+    padding-bottom:12%;
+    font-size:120px;
+    color:rgb(255, 233, 200);
+    text-shadow: 0px 0px 10px rgb(255, 178, 54);
+}
+
+#ff-compose{
+    background-image:-webkit-linear-gradient(270deg, rgba(14, 14, 14, 0.697) 20% , rgba(27, 27, 27, 0)90%),url(img/section_3.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.reg-btn {
+    display: flex;
+    margin: 5% 0 5% ;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    width:150px;
+    height:70px;
+    border-radius: 8px;
+    background-image:-webkit-linear-gradient(270deg, rgb(255, 173, 85) 10% , rgb(118, 65, 0)90%); /* Change to your desired background color */
+    box-shadow: 0px 0px 3px 10px rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .reg
+  {
+    text-shadow: 0px 0px 2px black;
+    text-decoration: none;
+font-size: 22px;
+  }
+
+
+  /* ///////////Media///////// */
+
+  @media (max-width:1450px) {
+        .sec1
+        {
+            background-image: -webkit-linear-gradient(70deg, black 10% , rgba(0, 0, 0, 0) 80%),url(img/ipad_view.png);
+        }
+
+  }
+
+  @media (max-width:1150px) {
+        .sec1
+        {
+            background-image: -webkit-linear-gradient(80deg, black 10% , rgba(0, 0, 0, 0) 80%),url(img/mobile_view.png);
+            background-position: center;
+        }
+.title
+{
+width: fit-content;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top:300px;
+padding-bottom: 80px;
+}
+
+        .Head{
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 55px;
+
+            }
+            .description{
+                font-size: 15px;
+                margin: 3px;
+                
+            }
+        .reg
+        {
+font-size: 18px;
+
+        }
+        .reg-btn
+        {
+            border-radius: 6px;
+            height:50px;
+            width: 120px;
+            box-shadow: 0px 0px 10px rgba(146, 94, 10, 0.677);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .prize-head
+        {
+            margin-top: 2%;
+            padding-bottom: 5%;
+            font-size: 60px;
+        }
+        .cash-prizes
+        {
+            margin: 2%;
+        }
+        .prizes
+        {
+            font-size: 14px;
+        }
+    .prize-Box
+    {
+        padding: 2%;
+        padding-bottom: 13%;
+    }
+}
