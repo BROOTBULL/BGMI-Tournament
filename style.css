@@ -11,6 +11,12 @@ scrollbar-width: none;
 margin: 0px;
 
 }
+
+button
+{
+    background-color: transparent;
+    border: none;
+}
 .sec1
 {
     width:100%;
@@ -87,7 +93,7 @@ letter-spacing: 4px;
 
 .description{
     text-decoration: none;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-size: 28px;
     margin: 3px;
     
