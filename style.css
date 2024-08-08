@@ -11,6 +11,20 @@ scrollbar-width: none;
 margin: 0px;
 
 }
+
+.ff-form div,.ff-form .ff-item-qs ,.ff-form h3,.ff-form b
+{
+    color: rgb(255, 255, 255) !important;
+}
+.ff-form input
+{
+    background-color: rgb(135, 135, 135) !important;
+}
+.ff-form
+{
+    background-image:-webkit-linear-gradient(-40deg ,rgb(17, 17, 17),black,rgb(19, 19, 19),black,rgb(17, 17, 17),black) ;
+}
+
 #pay-m
 {
   display:none; 
@@ -20,6 +34,7 @@ button
 {
     background-color: transparent;
     border: none;
+    color:rgb(56, 255, 156)!important;
 }
 
 .sec1
