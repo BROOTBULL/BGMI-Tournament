@@ -11,12 +11,17 @@ scrollbar-width: none;
 margin: 0px;
 
 }
+#pay-m
+{
+  display:none; 
+}
 
 button
 {
     background-color: transparent;
     border: none;
 }
+
 .sec1
 {
     width:100%;
@@ -164,38 +169,34 @@ font-size: 22px;
         {
             background-image: -webkit-linear-gradient(70deg, black 10% , rgba(0, 0, 0, 0) 80%),url(ipad_view.png);
             background-position: center;
-        
         }
-        .heading
-        {
-            font-size: 78px;
-        }
+
+        .heading{font-size: 78px;}
+
         .Head{
             font-weight: 800;
             font-size: 78px;
             line-height: 78px;
 
             }
-            .description{
+        .description
+        {
                 font-size: 23px;
                 margin: 3px;
                 
-            }
-        .prizes
-        {
-            font-size: 34px;
         }
+
+        .prizes{font-size: 34px;}
+
         .prize-head
         {
             margin-top: 2%;
             padding-bottom: 180px;
             font-size: 60px;
         }
-        .reg
-        {
-           font-size: 18px;
 
-        }
+        .reg{font-size: 18px;}
+
         .reg-btn
         {
             border-radius: 6px;
@@ -203,9 +204,11 @@ font-size: 22px;
             width: 120px;
             margin-top: 50px;
         }
-        .reg-date
+
+        .reg-date{font-size: 13px;}
+#pay-m
 {
-    font-size: 13px;
+  display:none; 
 }
 
   }
@@ -273,11 +276,20 @@ font-size: 22px;
 {
     font-size: 13px;
 }
+
+#pay-m
+{
+  display:none; 
+}
     }
 
 
 
   @media (max-width:560px) {
+    #pay-m
+    {
+      display:flex;margin:1% auto" 
+    }
         .sec1
         {
             background-image: -webkit-linear-gradient(80deg, black 10% , rgba(0, 0, 0, 0) 80%),url(mobile_view.png);
