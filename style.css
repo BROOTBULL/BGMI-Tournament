@@ -16,13 +16,20 @@ margin: 0px;
 {
     color: rgb(255, 255, 255) !important;
 }
-.ff-form input
+.ff-form input,.ff-form #Widget2032035190
 {
+    border-color: aliceblue !important;
     background-color: rgb(135, 135, 135) !important;
 }
+
 .ff-form
 {
     background-image:-webkit-linear-gradient(-40deg ,rgb(17, 17, 17),black,rgb(19, 19, 19),black,rgb(17, 17, 17),black) ;
+}
+.ff-form #Display1192914814,.ff-form #Display1192914814 .addfile
+{
+    color: #ffffff;
+    border-color: aliceblue;
 }
 
 #pay-m
